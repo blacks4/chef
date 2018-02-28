@@ -12,11 +12,3 @@ end
 file 'c:/chef/cache/test.txt' do
   action :create
 end
-
-file 'c:/chef/cache/test2.txt' do
-  action :create
-end
-
-file 'c:/chef/cache/test3.txt' do
-  action :create
-end
