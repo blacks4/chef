@@ -8,3 +8,7 @@ package 'AWS Command Line Interface' do
   source 'https://s3.amazonaws.com/aws-cli/AWSCLI64.msi'
   action :install
 end
+
+file 'c:/chef/cache/test.txt' do
+  action :create
+end
